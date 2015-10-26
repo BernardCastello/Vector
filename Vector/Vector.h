@@ -1,6 +1,5 @@
 #pragma once
 
-template<typename V>
 class Vector3
 {
 public:
@@ -8,13 +7,28 @@ public:
 	float y;
 	float z;
 
-	void VectorAdd(float, float, float);
+	void VectorAdd();
 	void VectorSub();
 	void Normalize();
 	void Magnitude();
 };
 
-void VectorAdd(float x, float y, float z)
+void Vector3::VectorAdd()
+{
+
+}
+
+void Vector3::VectorSub()
+{
+
+}
+
+void Vector3::Magnitude()
+{
+
+}
+
+void Vector3::Normalize()
 {
 
 }
