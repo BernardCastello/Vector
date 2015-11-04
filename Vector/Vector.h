@@ -1,34 +1,17 @@
 #pragma once
 
-class Vector3
+namespace Vector3
 {
-public:
-	float x;
-	float y;
-	float z;
+	class Vector3Maths
+	{
+	public:
 
-	void VectorAdd();
-	void VectorSub();
-	void Normalize();
-	void Magnitude();
-};
+		static float Add(float x, float y, float z);
 
-void Vector3::VectorAdd()
-{
+		static float Subtract(float x, float y, float z);
 
-}
+		static float Multiply(float x, float y, float z);
 
-void Vector3::VectorSub()
-{
-
-}
-
-void Vector3::Magnitude()
-{
-
-}
-
-void Vector3::Normalize()
-{
-
+		static float Divide(float x, float y, float z);
+	};
 }
